@@ -1,0 +1,77 @@
+// Define variables for colors
+@white: #ffffff;
+@dark-purple: #310278;
+@light-gray: #f7f7f7;
+@light-green: #81e53e;
+@hover-blue: #054df5;
+@gray: #666666;
+@shadow: rgba(0, 0, 0, 0.1);
+
+// Container Styles
+.container {
+  padding: 40px;
+  background-color: @white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px @shadow;
+
+  // Left Section Styles
+  .left-section {
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  // Right Section Styles
+  .right-section {
+    h1 {
+      color: @dark-purple;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: @gray;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    // Features Styles
+    .features {
+      margin-top: 20px;
+
+      .feature {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: @light-gray;
+        border-radius: 10px;
+        box-shadow: 0 1px 5px @shadow;
+      }
+    }
+
+    // Learn More Button Styles
+    .learn-more {
+      margin-top: 30px;
+      background-color: @light-green;
+      color: @white;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: @hover-blue;
+      }
+    }
+  }
+
+  // Icon Styles
+  .icon {
+    color: #46f646;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+}

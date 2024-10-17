@@ -1,0 +1,48 @@
+/* Màu xanh lá */
+/* Màu vàng */
+/* Màu nền của banner */
+/* Màu nền của sidebar */
+/* Màu khi hover vào các mục trong danh sách */
+/* Bóng đổ */
+/* Chiều rộng tối đa của container */
+.custom-badge {
+  background: linear-gradient(to right, #00ca00, #ffd900);
+  /* Gradient từ xanh lá sang vàng */
+  color: white;
+  /* Màu chữ trắng */
+  display: inline-block;
+}
+.banner-container {
+  background-color: #340094;
+  /* Màu nền của banner */
+}
+.banner-container .container {
+  max-width: 1140px;
+  /* Giới hạn container chính trong banner */
+}
+.meta-info {
+  justify-content: flex-start !important;
+}
+.meta-info span {
+  font-size: 1rem;
+  display: inline-block;
+}
+.container-fluid {
+  padding: 0;
+  /* Loại bỏ khoảng padding để banner tràn toàn màn hình */
+}
+.container {
+  max-width: 1140px;
+  /* Đảm bảo rằng container nội dung chính giới hạn đúng kích thước */
+}
+/* Sidebar and list styling */
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+ul.list-unstyled li:hover {
+  color: #007bff;
+  /* Đổi màu khi hover vào các mục trong danh sách */
+}
